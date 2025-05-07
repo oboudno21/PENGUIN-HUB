@@ -9,6 +9,7 @@ local FlyButton = Instance.new("ImageButton")
 local ImageButton_4 = Instance.new("ImageButton")
 local ImageButton_5 = Instance.new("ImageButton")
 local ImageButton_6 = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -20,15 +21,15 @@ Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0822942629, 0, 0.0996129885, 0)
-Frame.Size = UDim2.new(0, 493, 0, 299)
+Frame.Position = UDim2.new(0.0901135877, 0, 0.0996130034, 0)
+Frame.Size = UDim2.new(0, 563, 0, 299)
 
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(-0.00095724914, 0, -0.0131956888, 0)
-ImageLabel.Size = UDim2.new(0, 494, 0, 302)
+ImageLabel.Position = UDim2.new(-0.0050413087, 0, 0.00038458273, 0)
+ImageLabel.Size = UDim2.new(0, 568, 0, 301)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=15473997562"
 ImageLabel.ImageTransparency = 0.500
 
@@ -39,7 +40,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 210, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "PENGUIN HUB v1.2"
+TextLabel.Text = "PENGUIN HUB v1.3"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -49,7 +50,7 @@ ImageButton.Parent = ImageLabel
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.929149806, 0, 0, 0)
+ImageButton.Position = UDim2.new(0.754854023, 0, 0, 0)
 ImageButton.Size = UDim2.new(0, 35, 0, 35)
 ImageButton.Image = "http://www.roblox.com/asset/?id=13376866599"
 
@@ -57,7 +58,7 @@ ImageButton_2.Parent = ImageLabel
 ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_2.BorderSizePixel = 0
-ImageButton_2.Position = UDim2.new(0.0182186235, 0, 0.165562913, 0)
+ImageButton_2.Position = UDim2.new(0.0182186179, 0, 0.165562928, 0)
 ImageButton_2.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_2.Image = "http://www.roblox.com/asset/?id=15400765331"
 
@@ -74,7 +75,7 @@ FlyButton.Parent = ImageLabel
 FlyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FlyButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlyButton.BorderSizePixel = 0
-FlyButton.Position = UDim2.new(0.257085025, 0, 0.165562913, 0)
+FlyButton.Position = UDim2.new(0.223634318, 0, 0.165562928, 0)
 FlyButton.Size = UDim2.new(0, 99, 0, 50)
 FlyButton.Image = "http://www.roblox.com/asset/?id=135322674123172"
 
@@ -82,7 +83,7 @@ ImageButton_4.Parent = ImageLabel
 ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_4.BorderSizePixel = 0
-ImageButton_4.Position = UDim2.new(0.508097172, 0, 0.165562913, 0)
+ImageButton_4.Position = UDim2.new(0.425350666, 0, 0.165562928, 0)
 ImageButton_4.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_4.Image = "http://www.roblox.com/asset/?id=114449015831005"
 
@@ -90,7 +91,7 @@ ImageButton_5.Parent = ImageLabel
 ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_5.BorderSizePixel = 0
-ImageButton_5.Position = UDim2.new(0.755060732, 0, 0.165562913, 0)
+ImageButton_5.Position = UDim2.new(0.640624046, 0, 0.165562928, 0)
 ImageButton_5.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_5.Image = "http://www.roblox.com/asset/?id=15400765331"
 
@@ -102,9 +103,66 @@ ImageButton_6.Position = UDim2.new(0.0182186235, 0, 0.370860934, 0)
 ImageButton_6.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_6.Image = "http://www.roblox.com/asset/?id=108163106599833"
 
+TextLabel_2.Parent = ImageLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.814919829, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 105, 0, 71)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "обнавление: исправление багов"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
 -- Scripts:
 
-local function YUDN_fake_script() -- ImageButton.LocalScript 
+local function PSTK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(dragonPos)
+		local delta = dragonPos - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input.Position)
+		end
+	end)
+end
+coroutine.wrap(PSTK_fake_script)()
+local function LPGSTBE_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -114,8 +172,8 @@ local function YUDN_fake_script() -- ImageButton.LocalScript
 		screengui.Enabled = false
 	end)
 end
-coroutine.wrap(YUDN_fake_script)()
-local function KLCCU_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(LPGSTBE_fake_script)()
+local function OMEN_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local imageButton = script.Parent -- Скрипт должен быть внутри ImageButton
@@ -164,8 +222,8 @@ local function KLCCU_fake_script() -- ImageButton_2.LocalScript
 		createBlock(player)
 	end)
 end
-coroutine.wrap(KLCCU_fake_script)()
-local function WJKTHD_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(OMEN_fake_script)()
+local function XRRLJJS_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local lol = script.Parent
@@ -182,8 +240,8 @@ local function WJKTHD_fake_script() -- ImageButton_3.LocalScript
 		sound:Destroy()
 	end)
 end
-coroutine.wrap(WJKTHD_fake_script)()
-local function LRQJT_fake_script() -- FlyButton.LocalScript 
+coroutine.wrap(XRRLJJS_fake_script)()
+local function RETV_fake_script() -- FlyButton.LocalScript 
 	local script = Instance.new('LocalScript', FlyButton)
 
 	local Player = game:GetService("Players").LocalPlayer
@@ -239,87 +297,147 @@ local function LRQJT_fake_script() -- FlyButton.LocalScript
 	-- Вешаем на ImageButton (пример)
 	script.Parent.MouseButton1Click:Connect(ToggleFlight)
 end
-coroutine.wrap(LRQJT_fake_script)()
-local function MIBD_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(RETV_fake_script)()
+local function EAERRPB_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local LocalPlayer = Players.LocalPlayer
-	local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
-	local HRP = Character:WaitForChild("HumanoidRootPart")
 	local button = script.Parent
 	
-	local SPIN_SPEED = 50000000000000
-	local PUSH_FORCE = 50000000000000
-	local PUSH_RADIUS = 10
-	local spinning = false
-	local originalCollisions = {} -- Таблица для восстановления
+	button.MouseButton1Click:Connect(function()
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("ImageLabel")
+		local TextButton = Instance.new("TextButton")
+		local TextLabel = Instance.new("TextLabel")
 	
-	local function spinAttack()
-		while spinning do
-			-- Вращение HRP
-			HRP.CFrame = HRP.CFrame * CFrame.Angles(0, math.rad(SPIN_SPEED), 0)
+		--Properties:
 	
-			-- Отталкивание игроков
-			for _, player in ipairs(Players:GetPlayers()) do
-				if player ~= LocalPlayer then
-					local targetHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
-					if targetHRP and (targetHRP.Position - HRP.Position).Magnitude <= PUSH_RADIUS then
-						targetHRP.Velocity = (targetHRP.Position - HRP.Position).Unit * PUSH_FORCE + Vector3.new(0, 25, 0)
+		ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		ScreenGui.ResetOnSpawn = false
+	
+		Frame.Parent = ScreenGui
+		Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+		Frame.BorderSizePixel = 2
+		Frame.Position = UDim2.new(0.341826946, 0, 0.367763907, 0)
+		Frame.Image = "http://www.roblox.com/asset/?id=15473997562"
+		Frame.Size = UDim2.new(0, 148, 0, 106)
+	
+		TextButton.Parent = Frame
+		TextButton.BackgroundTransparency = 1
+		TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+		TextButton.BorderSizePixel = 2
+		TextButton.Position = UDim2.new(0.0835492909, 0, 0.552504063, 0)
+		TextButton.Size = UDim2.new(0, 124, 0, 37)
+		TextButton.Font = Enum.Font.SourceSans
+		TextButton.Text = "OFF"
+		TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextButton.TextSize = 41.000
+	
+		TextLabel.Parent = Frame
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0.0649713054, 0, 0.0727680102, 0)
+		TextLabel.Size = UDim2.new(0, 128, 0, 39)
+		TextLabel.Font = Enum.Font.SourceSans
+		TextLabel.Text = "Touch Fling"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextSize = 34.000
+	
+		-- Scripts:
+	
+		local function CTIKC_fake_script() -- TextButton.LocalScript 
+			local script = Instance.new('LocalScript', TextButton)
+	
+			local ReplicatedStorage = game:GetService("ReplicatedStorage")
+			local RunService = game:GetService("RunService")
+			local Players = game:GetService("Players")
+	
+			local toggleButton = script.Parent
+			local hiddenfling = false
+	
+	
+			if not ReplicatedStorage:FindFirstChild("juisdfj0i32i0eidsuf0iok") then
+				local detection = Instance.new("Decal")
+				detection.Name = "juisdfj0i32i0eidsuf0iok"
+				detection.Parent = ReplicatedStorage
+			end
+	
+			local function fling()
+				local hrp, c, vel, movel = nil, nil, nil, 0.1
+				local lp = Players.LocalPlayer
+	
+				while true do
+					RunService.Heartbeat:Wait()
+					if hiddenfling then
+						while hiddenfling and not (c and c.Parent and hrp and hrp.Parent) do
+							RunService.Heartbeat:Wait()
+							c = lp.Character
+							hrp = c and c:FindFirstChild("HumanoidRootPart")
+						end
+	
+						if hiddenfling then
+							vel = hrp.Velocity
+							hrp.Velocity = vel * 10000 + Vector3.new(0, 10000, 0)
+							RunService.RenderStepped:Wait()
+							if c and c.Parent and hrp and hrp.Parent then
+								hrp.Velocity = vel
+							end
+							RunService.Stepped:Wait()
+							if c and c.Parent and hrp and hrp.Parent then
+								hrp.Velocity = vel + Vector3.new(0, movel, 0)
+								movel = movel * -1
+							end
+						end
 					end
 				end
 			end
-			RunService.Heartbeat:Wait()
-		end
-	end
 	
-	button.MouseButton1Click:Connect(function()
-		spinning = not spinning
-	
-		-- Управление коллизиями
-		if spinning then
-			-- Сохраняем и меняем коллизии
-			for _, part in ipairs(Character:GetDescendants()) do
-				if part:IsA("BasePart") then
-					originalCollisions[part] = part.CanCollide
-					part.CanCollide = (part == HRP) -- true только для HRP
+			toggleButton.MouseButton1Click:Connect(function()
+				hiddenfling = not hiddenfling
+				if hiddenfling then
+					toggleButton.Text = "ON"
+				else
+					toggleButton.Text = "OFF"
 				end
-			end
-		else
-			-- Восстанавливаем коллизии
-			for part, state in pairs(originalCollisions) do
-				if part:IsA("BasePart") then
-					part.CanCollide = state
-				end
-			end
-			originalCollisions = {}
-		end
+			end)
 	
-		-- Запуск/остановка
-		if spinning then
-			coroutine.wrap(spinAttack)()
-			LocalPlayer.Humanoid.AutoRotate = false
-		else
-			HRP.CFrame = CFrame.new(HRP.Position)
-			LocalPlayer.Humanoid.AutoRotate = true
+			fling()
+	
 		end
+		coroutine.wrap(CTIKC_fake_script)()
+		local function FFJFK_fake_script() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript', Frame)
+	
+			script.Parent.Active = true
+			script.Parent.Draggable = true
+		end
+		coroutine.wrap(FFJFK_fake_script)()
 	end)
 end
-coroutine.wrap(MIBD_fake_script)()
-local function XFMIZLI_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(EAERRPB_fake_script)()
+local function VEEBMWJ_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local button = script.Parent
-	local speaker = game:GetService("TextChatService")
+	local TextChatService = game:GetService("TextChatService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
 	
 	button.MouseButton1Click:Connect(function()
-		-- Взлом чата через TextChatService
-		speaker.TextChannels.RBXGeneral:SendAsync("СЛАВА ПИНГВИНАМ! 🐧")
+		if TextChatService.TextChannels:FindFirstChild("RBXGeneral") then
+			-- Отправляем сообщение в общий чат (видно всем)
+			TextChatService.TextChannels.RBXGeneral:SendAsync("СЛАВА ПИНГВИНАМ! 🐧")
+		else
+			warn("я хз")
+		end
 	end)
 end
-coroutine.wrap(XFMIZLI_fake_script)()
-local function NVFK_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(VEEBMWJ_fake_script)()
+local function UFRHJFH_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local Players = game:GetService("Players")
@@ -419,47 +537,4 @@ local function NVFK_fake_script() -- ImageButton_6.LocalScript
 		startOrbit(ball)
 	end)
 end
-coroutine.wrap(NVFK_fake_script)()
-local function OIDADJX_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	local frame = script.Parent
-	
-	local dragging = false
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(dragonPos)
-		local delta = dragonPos - dragStart
-		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			dragging = true
-			dragStart = input.Position
-			startPos = frame.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	frame.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement then
-			dragInput = input
-		end
-	end)
-	
-	game:GetService("UserInputService").InputChanged:Connect(function(input)
-		if dragging and input == dragInput then
-			update(input.Position)
-		end
-	end)
-end
-coroutine.wrap(OIDADJX_fake_script)()
+coroutine.wrap(UFRHJFH_fake_script)()
