@@ -10,6 +10,8 @@ local ImageButton_4 = Instance.new("ImageButton")
 local ImageButton_5 = Instance.new("ImageButton")
 local ImageButton_6 = Instance.new("ImageButton")
 local TextLabel_2 = Instance.new("TextLabel")
+local ImageButton_7 = Instance.new("ImageButton")
+local ImageButton_8 = Instance.new("ImageButton")
 
 --Properties:
 
@@ -40,7 +42,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 210, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "PENGUIN HUB v1.3"
+TextLabel.Text = "PENGUIN HUB v1.4"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -66,7 +68,7 @@ ImageButton_3.Parent = ImageLabel
 ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_3.BorderSizePixel = 0
-ImageButton_3.Position = UDim2.new(0.437246978, 0, 0, 0)
+ImageButton_3.Position = UDim2.new(0.380908906, 0, 0, 0)
 ImageButton_3.Size = UDim2.new(0, 35, 0, 35)
 ImageButton_3.Image = "http://www.roblox.com/asset/?id=13376866599"
 
@@ -111,15 +113,31 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.814919829, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0, 105, 0, 71)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "обнавление: исправление багов"
+TextLabel_2.Text = "обнавление: новая кнопки и исправление багов"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+ImageButton_7.Parent = ImageLabel
+ImageButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_7.BorderSizePixel = 0
+ImageButton_7.Position = UDim2.new(0.222443968, 0, 0.368220747, 0)
+ImageButton_7.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_7.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
+ImageButton_8.Parent = ImageLabel
+ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_8.BorderSizePixel = 0
+ImageButton_8.Position = UDim2.new(0.424908757, 0, 0.36753872, 0)
+ImageButton_8.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_8.Image = "http://www.roblox.com/asset/?id=108163106599833"
+
 -- Scripts:
 
-local function PSTK_fake_script() -- Frame.LocalScript 
+local function SZQKD_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -161,8 +179,8 @@ local function PSTK_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PSTK_fake_script)()
-local function LPGSTBE_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(SZQKD_fake_script)()
+local function ITXCYP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -172,8 +190,8 @@ local function LPGSTBE_fake_script() -- ImageButton.LocalScript
 		screengui.Enabled = false
 	end)
 end
-coroutine.wrap(LPGSTBE_fake_script)()
-local function OMEN_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(ITXCYP_fake_script)()
+local function ADIZH_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local imageButton = script.Parent -- Скрипт должен быть внутри ImageButton
@@ -222,8 +240,8 @@ local function OMEN_fake_script() -- ImageButton_2.LocalScript
 		createBlock(player)
 	end)
 end
-coroutine.wrap(OMEN_fake_script)()
-local function XRRLJJS_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(ADIZH_fake_script)()
+local function FKKFIX_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local lol = script.Parent
@@ -240,8 +258,8 @@ local function XRRLJJS_fake_script() -- ImageButton_3.LocalScript
 		sound:Destroy()
 	end)
 end
-coroutine.wrap(XRRLJJS_fake_script)()
-local function RETV_fake_script() -- FlyButton.LocalScript 
+coroutine.wrap(FKKFIX_fake_script)()
+local function SYVXHER_fake_script() -- FlyButton.LocalScript 
 	local script = Instance.new('LocalScript', FlyButton)
 
 	local Player = game:GetService("Players").LocalPlayer
@@ -297,8 +315,8 @@ local function RETV_fake_script() -- FlyButton.LocalScript
 	-- Вешаем на ImageButton (пример)
 	script.Parent.MouseButton1Click:Connect(ToggleFlight)
 end
-coroutine.wrap(RETV_fake_script)()
-local function EAERRPB_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(SYVXHER_fake_script)()
+local function OUONHU_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local button = script.Parent
@@ -418,8 +436,8 @@ local function EAERRPB_fake_script() -- ImageButton_4.LocalScript
 		coroutine.wrap(FFJFK_fake_script)()
 	end)
 end
-coroutine.wrap(EAERRPB_fake_script)()
-local function VEEBMWJ_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(OUONHU_fake_script)()
+local function WKVGOJV_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local button = script.Parent
@@ -436,8 +454,8 @@ local function VEEBMWJ_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VEEBMWJ_fake_script)()
-local function UFRHJFH_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(WKVGOJV_fake_script)()
+local function HPXTYE_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local Players = game:GetService("Players")
@@ -537,4 +555,80 @@ local function UFRHJFH_fake_script() -- ImageButton_6.LocalScript
 		startOrbit(ball)
 	end)
 end
-coroutine.wrap(UFRHJFH_fake_script)()
+coroutine.wrap(HPXTYE_fake_script)()
+local function GBQW_fake_script() -- ImageButton_7.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_7)
+
+	local button = script.Parent
+	local targetTexture = "rbxassetid://114449015831005" -- Твоя текстура
+	
+	button.MouseButton1Click:Connect(function()
+		for _, obj in ipairs(workspace:GetDescendants()) do
+			if obj:IsA("BasePart") then
+				-- Удаляем старые декалы
+				for _, v in ipairs(obj:GetChildren()) do
+					if v:IsA("Decal") then
+						v:Destroy()
+					end
+				end
+	
+				-- Наклейка на все 6 граней
+				for _, face in pairs(Enum.NormalId:GetEnumItems()) do
+					local newDecal = Instance.new("Decal")
+					newDecal.Name = "SpamDecal"
+					newDecal.Texture = targetTexture
+					newDecal.Transparency = 0
+					newDecal.Face = face
+					newDecal.Parent = obj
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(GBQW_fake_script)()
+local function DEYCAVP_fake_script() -- ImageButton_8.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_8)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+			if player.Character then
+				local head = player.Character:FindFirstChild("Head")
+				if head then
+					-- Исправленная проверка
+					local existing = head:FindFirstChild("ParticleHack")
+					if existing then
+						existing:Destroy()
+					end
+	
+					-- Создаем эмиттер
+					local emitter = Instance.new("ParticleEmitter")
+					emitter.Name = "ParticleHack"
+					emitter.Texture = "rbxassetid://114449015831005"
+					emitter.Rate = 50 -- Увеличил скорость
+					emitter.Speed = NumberRange.new(15)
+					emitter.Lifetime = NumberRange.new(1) -- Короткая жизнь
+					emitter.Acceleration = Vector3.new(0, 25, 0) -- Более резкий подъем
+					emitter.Parent = head
+				end
+			end
+		end
+	
+		-- Фикс для новых игроков
+		if not _hackConn then
+			_hackConn = game:GetService("Players").PlayerAdded:Connect(function(newPlayer)
+				newPlayer.CharacterAdded:Connect(function(char)
+					local head = char:WaitForChild("Head", 2)
+					if head then
+						local emitter = Instance.new("ParticleEmitter")
+						emitter.Texture = "rbxassetid://534362535"
+						emitter.Acceleration = Vector3.new(0, 35, 0)
+						emitter.Parent = head
+					end
+				end)
+			end)
+		end
+	end)
+end
+coroutine.wrap(DEYCAVP_fake_script)()
