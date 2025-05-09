@@ -171,7 +171,7 @@ ImageButton_10.Image = "http://www.roblox.com/asset/?id=13376866599"
 
 -- Scripts:
 
-local function KTSY_fake_script() -- MainFrame.LocalScript 
+local function SEPQI_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -213,8 +213,8 @@ local function KTSY_fake_script() -- MainFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KTSY_fake_script)()
-local function CVWWGW_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(SEPQI_fake_script)()
+local function RLYPZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -224,8 +224,8 @@ local function CVWWGW_fake_script() -- ImageButton.LocalScript
 		screengui.Enabled = false
 	end)
 end
-coroutine.wrap(CVWWGW_fake_script)()
-local function BIBC_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(RLYPZ_fake_script)()
+local function WFFZGZC_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local imageButton = script.Parent -- Скрипт должен быть внутри ImageButton
@@ -274,8 +274,8 @@ local function BIBC_fake_script() -- ImageButton_2.LocalScript
 		createBlock(player)
 	end)
 end
-coroutine.wrap(BIBC_fake_script)()
-local function VOWKP_fake_script() -- FlyButton.LocalScript 
+coroutine.wrap(WFFZGZC_fake_script)()
+local function NFOL_fake_script() -- FlyButton.LocalScript 
 	local script = Instance.new('LocalScript', FlyButton)
 
 	local Player = game:GetService("Players").LocalPlayer
@@ -331,8 +331,8 @@ local function VOWKP_fake_script() -- FlyButton.LocalScript
 	-- Вешаем на ImageButton (пример)
 	script.Parent.MouseButton1Click:Connect(ToggleFlight)
 end
-coroutine.wrap(VOWKP_fake_script)()
-local function LNPQ_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(NFOL_fake_script)()
+local function AKZZES_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local button = script.Parent
@@ -452,8 +452,8 @@ local function LNPQ_fake_script() -- ImageButton_3.LocalScript
 		coroutine.wrap(FFJFK_fake_script)()
 	end)
 end
-coroutine.wrap(LNPQ_fake_script)()
-local function IMGJV_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(AKZZES_fake_script)()
+local function KVKBLXV_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local button = script.Parent
@@ -470,8 +470,8 @@ local function IMGJV_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IMGJV_fake_script)()
-local function WTGWBC_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(KVKBLXV_fake_script)()
+local function WHNITE_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local Players = game:GetService("Players")
@@ -571,8 +571,8 @@ local function WTGWBC_fake_script() -- ImageButton_5.LocalScript
 		startOrbit(ball)
 	end)
 end
-coroutine.wrap(WTGWBC_fake_script)()
-local function JDSRXL_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(WHNITE_fake_script)()
+local function ABJBLDI_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local button = script.Parent
@@ -601,8 +601,8 @@ local function JDSRXL_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JDSRXL_fake_script)()
-local function SWONF_fake_script() -- ImageButton_7.LocalScript 
+coroutine.wrap(ABJBLDI_fake_script)()
+local function JRZAYAI_fake_script() -- ImageButton_7.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_7)
 
 	local button = script.Parent
@@ -647,8 +647,8 @@ local function SWONF_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SWONF_fake_script)()
-local function SLCW_fake_script() -- ImageButton_8.LocalScript 
+coroutine.wrap(JRZAYAI_fake_script)()
+local function SMCXKE_fake_script() -- ImageButton_8.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_8)
 
 	local button = script.Parent -- Скрипт должен быть внутри ImageButton
@@ -692,8 +692,8 @@ local function SLCW_fake_script() -- ImageButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SLCW_fake_script)()
-local function GILXE_fake_script() -- ImageButton_9.LocalScript 
+coroutine.wrap(SMCXKE_fake_script)()
+local function LAMO_fake_script() -- ImageButton_9.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_9)
 
 	local Players = game:GetService("Players")
@@ -740,8 +740,8 @@ local function GILXE_fake_script() -- ImageButton_9.LocalScript
 	
 	button.MouseButton1Click:Connect(teleportToAllPlayers)
 end
-coroutine.wrap(GILXE_fake_script)()
-local function NUANTZ_fake_script() -- ImageButton_10.LocalScript 
+coroutine.wrap(LAMO_fake_script)()
+local function XNTHY_fake_script() -- ImageButton_10.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_10)
 
 	local lol = script.Parent
@@ -758,8 +758,8 @@ local function NUANTZ_fake_script() -- ImageButton_10.LocalScript
 		sound:Destroy()
 	end)
 end
-coroutine.wrap(NUANTZ_fake_script)()
-local function KHWJJJA_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(XNTHY_fake_script)()
+local function IKDXML_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local player = game.Players.LocalPlayer
@@ -777,8 +777,8 @@ local function KHWJJJA_fake_script() -- ScreenGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KHWJJJA_fake_script)()
-local function TFGJRV_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(IKDXML_fake_script)()
+local function RXTTVE_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local player = game.Players.LocalPlayer
@@ -794,4 +794,4 @@ local function TFGJRV_fake_script() -- ScreenGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TFGJRV_fake_script)()
+coroutine.wrap(RXTTVE_fake_script)()
