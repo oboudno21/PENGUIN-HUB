@@ -1,32 +1,36 @@
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
 local ImageButton_2 = Instance.new("ImageButton")
-local ImageButton_3 = Instance.new("ImageButton")
 local FlyButton = Instance.new("ImageButton")
+local ImageButton_3 = Instance.new("ImageButton")
 local ImageButton_4 = Instance.new("ImageButton")
 local ImageButton_5 = Instance.new("ImageButton")
-local ImageButton_6 = Instance.new("ImageButton")
 local TextLabel_2 = Instance.new("TextLabel")
+local ImageButton_6 = Instance.new("ImageButton")
 local ImageButton_7 = Instance.new("ImageButton")
 local ImageButton_8 = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageButton_9 = Instance.new("ImageButton")
+local ImageButton_10 = Instance.new("ImageButton")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BackgroundTransparency = 1.000
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0901135877, 0, 0.0996130034, 0)
-Frame.Size = UDim2.new(0, 563, 0, 299)
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0901135877, 0, 0.0996130034, 0)
+MainFrame.Size = UDim2.new(0, 563, 0, 299)
 
-ImageLabel.Parent = Frame
+ImageLabel.Parent = MainFrame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
@@ -42,7 +46,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 210, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "PENGUIN HUB v1.4"
+TextLabel.Text = "PENGUIN HUB v1.5"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -64,14 +68,6 @@ ImageButton_2.Position = UDim2.new(0.0182186179, 0, 0.165562928, 0)
 ImageButton_2.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_2.Image = "http://www.roblox.com/asset/?id=15400765331"
 
-ImageButton_3.Parent = ImageLabel
-ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_3.BorderSizePixel = 0
-ImageButton_3.Position = UDim2.new(0.380908906, 0, 0, 0)
-ImageButton_3.Size = UDim2.new(0, 35, 0, 35)
-ImageButton_3.Image = "http://www.roblox.com/asset/?id=13376866599"
-
 FlyButton.Name = "FlyButton"
 FlyButton.Parent = ImageLabel
 FlyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -81,29 +77,29 @@ FlyButton.Position = UDim2.new(0.223634318, 0, 0.165562928, 0)
 FlyButton.Size = UDim2.new(0, 99, 0, 50)
 FlyButton.Image = "http://www.roblox.com/asset/?id=135322674123172"
 
+ImageButton_3.Parent = ImageLabel
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_3.BorderSizePixel = 0
+ImageButton_3.Position = UDim2.new(0.425350666, 0, 0.165562928, 0)
+ImageButton_3.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_3.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
 ImageButton_4.Parent = ImageLabel
 ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_4.BorderSizePixel = 0
-ImageButton_4.Position = UDim2.new(0.425350666, 0, 0.165562928, 0)
+ImageButton_4.Position = UDim2.new(0.640624046, 0, 0.165562928, 0)
 ImageButton_4.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_4.Image = "http://www.roblox.com/asset/?id=114449015831005"
+ImageButton_4.Image = "http://www.roblox.com/asset/?id=15400765331"
 
 ImageButton_5.Parent = ImageLabel
 ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_5.BorderSizePixel = 0
-ImageButton_5.Position = UDim2.new(0.640624046, 0, 0.165562928, 0)
+ImageButton_5.Position = UDim2.new(0.0182186235, 0, 0.370860934, 0)
 ImageButton_5.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_5.Image = "http://www.roblox.com/asset/?id=15400765331"
-
-ImageButton_6.Parent = ImageLabel
-ImageButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_6.BorderSizePixel = 0
-ImageButton_6.Position = UDim2.new(0.0182186235, 0, 0.370860934, 0)
-ImageButton_6.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_6.Image = "http://www.roblox.com/asset/?id=108163106599833"
+ImageButton_5.Image = "http://www.roblox.com/asset/?id=108163106599833"
 
 TextLabel_2.Parent = ImageLabel
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -113,32 +109,70 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.814919829, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0, 105, 0, 71)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "обнавление: новая кнопки и исправление багов"
+TextLabel_2.Text = "обнавление: новые кнопки и теперь можно закрывать и открывать меню на z и другое"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+ImageButton_6.Parent = ImageLabel
+ImageButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_6.BorderSizePixel = 0
+ImageButton_6.Position = UDim2.new(0.222443968, 0, 0.368220747, 0)
+ImageButton_6.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_6.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
 ImageButton_7.Parent = ImageLabel
 ImageButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_7.BorderSizePixel = 0
-ImageButton_7.Position = UDim2.new(0.222443968, 0, 0.368220747, 0)
+ImageButton_7.Position = UDim2.new(0.424908757, 0, 0.36753872, 0)
 ImageButton_7.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_7.Image = "http://www.roblox.com/asset/?id=114449015831005"
+ImageButton_7.Image = "http://www.roblox.com/asset/?id=108163106599833"
 
 ImageButton_8.Parent = ImageLabel
 ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_8.BorderSizePixel = 0
-ImageButton_8.Position = UDim2.new(0.424908757, 0, 0.36753872, 0)
+ImageButton_8.Position = UDim2.new(0.639697492, 0, 0.368220747, 0)
 ImageButton_8.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_8.Image = "http://www.roblox.com/asset/?id=108163106599833"
+ImageButton_8.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
+TextLabel_3.Parent = ImageLabel
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.43020469, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 182, 0, 18)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "нажми на z чтобы скрыть меню"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ImageButton_9.Parent = ImageLabel
+ImageButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_9.BorderSizePixel = 0
+ImageButton_9.Position = UDim2.new(0.0182186179, 0, 0.574200749, 0)
+ImageButton_9.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_9.Image = "http://www.roblox.com/asset/?id=15400765331"
+
+ImageButton_10.Parent = ImageLabel
+ImageButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_10.BorderSizePixel = 0
+ImageButton_10.Position = UDim2.new(0.368584961, 0, 0, 0)
+ImageButton_10.Size = UDim2.new(0, 35, 0, 35)
+ImageButton_10.Image = "http://www.roblox.com/asset/?id=13376866599"
 
 -- Scripts:
 
-local function SZQKD_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+local function KTSY_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
 	
@@ -179,8 +213,8 @@ local function SZQKD_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SZQKD_fake_script)()
-local function ITXCYP_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(KTSY_fake_script)()
+local function CVWWGW_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -190,8 +224,8 @@ local function ITXCYP_fake_script() -- ImageButton.LocalScript
 		screengui.Enabled = false
 	end)
 end
-coroutine.wrap(ITXCYP_fake_script)()
-local function ADIZH_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(CVWWGW_fake_script)()
+local function BIBC_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local imageButton = script.Parent -- Скрипт должен быть внутри ImageButton
@@ -240,26 +274,8 @@ local function ADIZH_fake_script() -- ImageButton_2.LocalScript
 		createBlock(player)
 	end)
 end
-coroutine.wrap(ADIZH_fake_script)()
-local function FKKFIX_fake_script() -- ImageButton_3.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_3)
-
-	local lol = script.Parent
-		
-	lol.MouseButton1Click:Connect(function()
-	local sound = Instance.new("Sound")
-		sound.SoundId = "rbxassetid://124793974135748"
-		sound.Volume = 0.5
-		sound.Looped = false
-		sound.Parent = workspace
-		sound:Play()
-		wait(5)
-		sound:Stop()
-		sound:Destroy()
-	end)
-end
-coroutine.wrap(FKKFIX_fake_script)()
-local function SYVXHER_fake_script() -- FlyButton.LocalScript 
+coroutine.wrap(BIBC_fake_script)()
+local function VOWKP_fake_script() -- FlyButton.LocalScript 
 	local script = Instance.new('LocalScript', FlyButton)
 
 	local Player = game:GetService("Players").LocalPlayer
@@ -315,9 +331,9 @@ local function SYVXHER_fake_script() -- FlyButton.LocalScript
 	-- Вешаем на ImageButton (пример)
 	script.Parent.MouseButton1Click:Connect(ToggleFlight)
 end
-coroutine.wrap(SYVXHER_fake_script)()
-local function OUONHU_fake_script() -- ImageButton_4.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_4)
+coroutine.wrap(VOWKP_fake_script)()
+local function LNPQ_fake_script() -- ImageButton_3.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local button = script.Parent
 	
@@ -436,9 +452,9 @@ local function OUONHU_fake_script() -- ImageButton_4.LocalScript
 		coroutine.wrap(FFJFK_fake_script)()
 	end)
 end
-coroutine.wrap(OUONHU_fake_script)()
-local function WKVGOJV_fake_script() -- ImageButton_5.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_5)
+coroutine.wrap(LNPQ_fake_script)()
+local function IMGJV_fake_script() -- ImageButton_4.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local button = script.Parent
 	local TextChatService = game:GetService("TextChatService")
@@ -454,9 +470,9 @@ local function WKVGOJV_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WKVGOJV_fake_script)()
-local function HPXTYE_fake_script() -- ImageButton_6.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_6)
+coroutine.wrap(IMGJV_fake_script)()
+local function WTGWBC_fake_script() -- ImageButton_5.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local Players = game:GetService("Players")
 	local TweenService = game:GetService("TweenService")
@@ -555,9 +571,9 @@ local function HPXTYE_fake_script() -- ImageButton_6.LocalScript
 		startOrbit(ball)
 	end)
 end
-coroutine.wrap(HPXTYE_fake_script)()
-local function GBQW_fake_script() -- ImageButton_7.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_7)
+coroutine.wrap(WTGWBC_fake_script)()
+local function JDSRXL_fake_script() -- ImageButton_6.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local button = script.Parent
 	local targetTexture = "rbxassetid://114449015831005" -- Твоя текстура
@@ -585,9 +601,9 @@ local function GBQW_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GBQW_fake_script)()
-local function DEYCAVP_fake_script() -- ImageButton_8.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_8)
+coroutine.wrap(JDSRXL_fake_script)()
+local function SWONF_fake_script() -- ImageButton_7.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_7)
 
 	local button = script.Parent
 	
@@ -631,4 +647,151 @@ local function DEYCAVP_fake_script() -- ImageButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DEYCAVP_fake_script)()
+coroutine.wrap(SWONF_fake_script)()
+local function SLCW_fake_script() -- ImageButton_8.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_8)
+
+	local button = script.Parent -- Скрипт должен быть внутри ImageButton
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	
+	-- Создаем ImageLabel и настраиваем его свойства
+	local imageLabel = Instance.new("ImageLabel")
+	imageLabel.Name = "SpinningLabel"
+	imageLabel.Size = UDim2.new(0, 100, 0, 100) -- Размер (можно изменить)
+	imageLabel.Position = UDim2.new(0, 5, 1, -5) -- Левый нижний угол (X: 20, Y: -170 от нижнего края)
+	imageLabel.AnchorPoint = Vector2.new(0, 1) -- Якорь внизу слева
+	imageLabel.BackgroundTransparency = 1 -- Прозрачный фон
+	imageLabel.Image = "rbxassetid://114449015831005" -- Замените на ID изображения
+	imageLabel.Visible = false -- Сначала невидим
+	
+	-- Добавляем UICorner для скругления углов
+	local uiCorner = Instance.new("UICorner", imageLabel)
+	uiCorner.CornerRadius = UDim.new(0, 100000000) -- Радиус скругления (можно изменить)
+	
+	-- Вставляем ImageLabel в PlayerGui (ScreenGui)
+	local screenGui = Instance.new("ScreenGui")
+	screenGui.Name = "SpinningLabelGui"
+	screenGui.Parent = playerGui
+	imageLabel.Parent = screenGui
+	
+	-- Функция для вращения ImageLabel
+	local function spinLabel()
+		local spinSpeed = 10 -- Скорость вращения (градусов в секунду)
+		while imageLabel.Visible do
+			imageLabel.Rotation = imageLabel.Rotation + (spinSpeed * task.wait()) -- Используем task.wait() вместо wait()
+		end
+	end
+	
+	-- Обработка нажатия на кнопку
+	button.MouseButton1Click:Connect(function()
+		imageLabel.Visible = not imageLabel.Visible -- Показать/скрыть
+	
+		if imageLabel.Visible then
+			spinLabel() -- Запускаем вращение, если видим
+		end
+	end)
+end
+coroutine.wrap(SLCW_fake_script)()
+local function GILXE_fake_script() -- ImageButton_9.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_9)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	local button = script.Parent -- ImageButton
+	local originalPosition = nil
+	local teleporting = false
+	
+	local function teleportToAllPlayers()
+		if teleporting then return end
+		teleporting = true
+	
+		-- Сохраняем исходную позицию
+		originalPosition = rootPart.Position
+	
+		-- Получаем всех игроков, кроме себя
+		local otherPlayers = {}
+		for _, plr in ipairs(Players:GetPlayers()) do
+			if plr ~= player and plr.Character then
+				table.insert(otherPlayers, plr)
+			end
+		end
+	
+		-- Телепортируемся к каждому игроку
+		for _, plr in ipairs(otherPlayers) do
+			local targetChar = plr.Character
+			if targetChar and targetChar:FindFirstChild("HumanoidRootPart") then
+				rootPart.CFrame = targetChar.HumanoidRootPart.CFrame * CFrame.new(0, 0, -1)
+				wait(0.5) -- Задержка между телепортами
+			end
+		end
+	
+		-- Возвращаемся на исходную позицию
+		if originalPosition then
+			rootPart.CFrame = CFrame.new(originalPosition)
+		end
+	
+		teleporting = false
+	end
+	
+	button.MouseButton1Click:Connect(teleportToAllPlayers)
+end
+coroutine.wrap(GILXE_fake_script)()
+local function NUANTZ_fake_script() -- ImageButton_10.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_10)
+
+	local lol = script.Parent
+		
+	lol.MouseButton1Click:Connect(function()
+	local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://124793974135748"
+		sound.Volume = 0.5
+		sound.Looped = false
+		sound.Parent = workspace
+		sound:Play()
+		wait(5)
+		sound:Stop()
+		sound:Destroy()
+	end)
+end
+coroutine.wrap(NUANTZ_fake_script)()
+local function KHWJJJA_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local player = game.Players.LocalPlayer
+	local playergui = player:WaitForChild("PlayerGui")
+	local screengui = playergui:WaitForChild("ScreenGui")
+	local mainframe = screengui:WaitForChild("MainFrame")
+	
+	local uis = game:GetService("UserInputService")
+	
+	uis.InputBegan:Connect(function(input, gameProcossed)
+		if gameProcossed then return end
+		
+		if input.KeyCode == Enum.KeyCode.Z then
+			mainframe.Visible = not mainframe.Visible
+		end
+	end)
+end
+coroutine.wrap(KHWJJJA_fake_script)()
+local function TFGJRV_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local player = game.Players.LocalPlayer
+	
+	-- Проверяем, не удалился ли GUI после смерти
+	player.CharacterAdded:Connect(function()
+		local playerGui = player:WaitForChild("PlayerGui")
+		if not playerGui:FindFirstChild("ScreenGui") then
+			local newGui = Instance.new("ScreenGui")
+			newGui.Name = "ScreenGui"
+			newGui.ResetOnSpawn = false
+			newGui.Parent = playerGui
+		end
+	end)
+end
+coroutine.wrap(TFGJRV_fake_script)()
