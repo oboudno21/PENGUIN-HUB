@@ -1,5 +1,5 @@
 -- require script lol --
-require(93639882816350).PPH("name here")
+require(115961109657542).PPH("name here")
 
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -20,6 +20,15 @@ local ImageButton_9 = Instance.new("ImageButton")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local ImageButton_10 = Instance.new("ImageButton")
+local musicgui = Instance.new("ScreenGui")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ImageButton_11 = Instance.new("ImageButton")
+local ImageButton_12 = Instance.new("ImageButton")
+local ImageButton_13 = Instance.new("ImageButton")
+local ImageButton_14 = Instance.new("ImageButton")
+local ImageButton_15 = Instance.new("ImageButton")
+local opengui = Instance.new("TextButton")
 
 --Properties:
 
@@ -51,7 +60,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 210, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "PENGUIN HUB v1.6"
+TextLabel.Text = "PENGUIN HUB v1.8"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -126,7 +135,7 @@ ImageButton_8.Parent = ImageLabel
 ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_8.BorderSizePixel = 0
-ImageButton_8.Position = UDim2.new(0.639697492, 0, 0.368220747, 0)
+ImageButton_8.Position = UDim2.new(0.0182186179, 0, 0.5841676, 0)
 ImageButton_8.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_8.Image = "http://www.roblox.com/asset/?id=114449015831005"
 
@@ -148,7 +157,7 @@ ImageButton_9.Parent = ImageLabel
 ImageButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_9.BorderSizePixel = 0
-ImageButton_9.Position = UDim2.new(0.0182186179, 0, 0.574200749, 0)
+ImageButton_9.Position = UDim2.new(0.222443968, 0, 0.58416754, 0)
 ImageButton_9.Size = UDim2.new(0, 99, 0, 50)
 ImageButton_9.Image = "http://www.roblox.com/asset/?id=15400765331"
 
@@ -160,7 +169,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.814919829, 0, 0, 0)
 TextLabel_3.Size = UDim2.new(0, 105, 0, 99)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "обнавление: новая кнопка и наконец скрипт стал require и просто скриптом (простите за долгое ожидание)"
+TextLabel_3.Text = "обнавление: добавил много песен чтобы окрыть надо нажать на новую кнопку снизу"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
@@ -182,9 +191,84 @@ ImageButton_10.Parent = ImageLabel
 ImageButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_10.BorderSizePixel = 0
-ImageButton_10.Position = UDim2.new(0.222443968, 0, 0.583485603, 0)
+ImageButton_10.Position = UDim2.new(0.641458035, 0, 0.368220747, 0)
 ImageButton_10.Size = UDim2.new(0, 99, 0, 50)
-ImageButton_10.Image = "http://www.roblox.com/asset/?id=108163106599833"
+ImageButton_10.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
+musicgui.Name = "musicgui"
+musicgui.Parent = ImageLabel
+musicgui.Enabled = false
+musicgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageLabel_2.Parent = musicgui
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0593525209, 0, 0.133706629, 0)
+ImageLabel_2.Size = UDim2.new(0, 129, 0, 300)
+ImageLabel_2.Image = "rbxassetid://15473997562"
+ImageLabel_2.ImageTransparency = 0.500
+
+ScrollingFrame.Parent = ImageLabel_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 129, 0, 300)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 140)
+
+ImageButton_11.Parent = ScrollingFrame
+ImageButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_11.BorderSizePixel = 0
+ImageButton_11.Position = UDim2.new(0.114831261, 0, 0.0240755212, 0)
+ImageButton_11.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_11.Image = "http://www.roblox.com/asset/?id=108163106599833"
+
+ImageButton_12.Parent = ScrollingFrame
+ImageButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_12.BorderSizePixel = 0
+ImageButton_12.Position = UDim2.new(0.108527131, 0, 0.143333331, 0)
+ImageButton_12.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_12.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
+ImageButton_13.Parent = ScrollingFrame
+ImageButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_13.BorderSizePixel = 0
+ImageButton_13.Position = UDim2.new(0.10707932, 0, 0.272604167, 0)
+ImageButton_13.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_13.Image = "http://www.roblox.com/asset/?id=108163106599833"
+
+ImageButton_14.Parent = ScrollingFrame
+ImageButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_14.BorderSizePixel = 0
+ImageButton_14.Position = UDim2.new(0.108527131, 0, 0.416666657, 0)
+ImageButton_14.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_14.Image = "http://www.roblox.com/asset/?id=114449015831005"
+
+ImageButton_15.Parent = ScrollingFrame
+ImageButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_15.BorderSizePixel = 0
+ImageButton_15.Position = UDim2.new(0.114831261, 0, 0.558541656, 0)
+ImageButton_15.Size = UDim2.new(0, 99, 0, 50)
+ImageButton_15.Image = "http://www.roblox.com/asset/?id=108163106599833"
+
+opengui.Name = "opengui"
+opengui.Parent = ImageLabel
+opengui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+opengui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+opengui.BorderSizePixel = 0
+opengui.Position = UDim2.new(0.939007521, 0, 0.883720934, 0)
+opengui.Size = UDim2.new(0, 34, 0, 35)
+opengui.Font = Enum.Font.SourceSans
+opengui.Text = "Music"
+opengui.TextColor3 = Color3.fromRGB(0, 0, 0)
+opengui.TextSize = 14.000
 
 -- Module Scripts:
 
@@ -231,7 +315,7 @@ end
 
 -- Scripts:
 
-local function JGMGRGV_fake_script() -- ScreenGui.LocalScript 
+local function LDRRSU_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 	local req = require
 	local require = function(obj)
@@ -257,8 +341,8 @@ local function JGMGRGV_fake_script() -- ScreenGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JGMGRGV_fake_script)()
-local function FZXM_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(LDRRSU_fake_script)()
+local function RFBLE_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 	local req = require
 	local require = function(obj)
@@ -308,8 +392,8 @@ local function FZXM_fake_script() -- MainFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FZXM_fake_script)()
-local function DGJMJDT_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(RFBLE_fake_script)()
+local function KOYQWWL_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 	local req = require
 	local require = function(obj)
@@ -327,8 +411,8 @@ local function DGJMJDT_fake_script() -- ImageButton.LocalScript
 		screengui.Enabled = false
 	end)
 end
-coroutine.wrap(DGJMJDT_fake_script)()
-local function MUAL_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(KOYQWWL_fake_script)()
+local function KRLANL_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 	local req = require
 	local require = function(obj)
@@ -385,8 +469,8 @@ local function MUAL_fake_script() -- ImageButton_2.LocalScript
 		createBlock(player)
 	end)
 end
-coroutine.wrap(MUAL_fake_script)()
-local function KRWNKAM_fake_script() -- FlyButton.LocalScript 
+coroutine.wrap(KRLANL_fake_script)()
+local function WTQJEPH_fake_script() -- FlyButton.LocalScript 
 	local script = Instance.new('LocalScript', FlyButton)
 	local req = require
 	local require = function(obj)
@@ -450,8 +534,8 @@ local function KRWNKAM_fake_script() -- FlyButton.LocalScript
 	-- Вешаем на ImageButton (пример)
 	script.Parent.MouseButton1Click:Connect(ToggleFlight)
 end
-coroutine.wrap(KRWNKAM_fake_script)()
-local function UHOXMF_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(WTQJEPH_fake_script)()
+local function ENLSBUH_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 	local req = require
 	local require = function(obj)
@@ -579,8 +663,8 @@ local function UHOXMF_fake_script() -- ImageButton_3.LocalScript
 		coroutine.wrap(FFJFK_fake_script)()
 	end)
 end
-coroutine.wrap(UHOXMF_fake_script)()
-local function WQQKK_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(ENLSBUH_fake_script)()
+local function BATFPX_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 	local req = require
 	local require = function(obj)
@@ -605,8 +689,8 @@ local function WQQKK_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WQQKK_fake_script)()
-local function QXADF_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(BATFPX_fake_script)()
+local function OMAYW_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 	local req = require
 	local require = function(obj)
@@ -714,8 +798,8 @@ local function QXADF_fake_script() -- ImageButton_5.LocalScript
 		startOrbit(ball)
 	end)
 end
-coroutine.wrap(QXADF_fake_script)()
-local function OXEJFN_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(OMAYW_fake_script)()
+local function WSYFQ_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 	local req = require
 	local require = function(obj)
@@ -752,8 +836,8 @@ local function OXEJFN_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OXEJFN_fake_script)()
-local function LFXPAIM_fake_script() -- ImageButton_7.LocalScript 
+coroutine.wrap(WSYFQ_fake_script)()
+local function CVJGU_fake_script() -- ImageButton_7.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_7)
 	local req = require
 	local require = function(obj)
@@ -806,8 +890,8 @@ local function LFXPAIM_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LFXPAIM_fake_script)()
-local function VSFTU_fake_script() -- ImageButton_8.LocalScript 
+coroutine.wrap(CVJGU_fake_script)()
+local function IKDURYC_fake_script() -- ImageButton_8.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_8)
 	local req = require
 	local require = function(obj)
@@ -859,8 +943,8 @@ local function VSFTU_fake_script() -- ImageButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VSFTU_fake_script)()
-local function LVMTP_fake_script() -- ImageButton_9.LocalScript 
+coroutine.wrap(IKDURYC_fake_script)()
+local function EODBYM_fake_script() -- ImageButton_9.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_9)
 	local req = require
 	local require = function(obj)
@@ -915,8 +999,8 @@ local function LVMTP_fake_script() -- ImageButton_9.LocalScript
 	
 	button.MouseButton1Click:Connect(teleportToAllPlayers)
 end
-coroutine.wrap(LVMTP_fake_script)()
-local function ALUT_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EODBYM_fake_script)()
+local function WIAYLYQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 	local req = require
 	local require = function(obj)
@@ -931,8 +1015,8 @@ local function ALUT_fake_script() -- TextButton.LocalScript
 		script.RemoteEvent:FireServer()
 	end)
 end
-coroutine.wrap(ALUT_fake_script)()
-local function QGASABI_fake_script() -- nil.Script 
+coroutine.wrap(WIAYLYQ_fake_script)()
+local function NLCBQ_fake_script() -- nil.Script 
 	local script = Instance.new('Script', nil)
 	local req = require
 	local require = function(obj)
@@ -947,8 +1031,8 @@ local function QGASABI_fake_script() -- nil.Script
 		require(script.Parent.Parent.R6).load(player.Name)
 	end)
 end
-coroutine.wrap(QGASABI_fake_script)()
-local function NOJGA_fake_script() -- ImageButton_10.LocalScript 
+coroutine.wrap(NLCBQ_fake_script)()
+local function LCFCX_fake_script() -- ImageButton_10.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_10)
 	local req = require
 	local require = function(obj)
@@ -961,30 +1045,278 @@ local function NOJGA_fake_script() -- ImageButton_10.LocalScript
 
 	local button = script.Parent
 	
+	button.MouseButton1Click:Connect(function()
+	
+		local sky = game.Lighting:FindFirstChildOfClass("Sky")
+	
+		if not sky then
+			sky = Instance.new("Sky")
+			sky.Parent = game.Lighting
+		end
+	
+		sky.SkyboxBk = "rbxassetid://114449015831005" -- Задняя
+		sky.SkyboxDn = "rbxassetid://114449015831005" -- Нижняя
+		sky.SkyboxFt = "rbxassetid://114449015831005" -- Передняя
+		sky.SkyboxLf = "rbxassetid://114449015831005" -- Левая
+		sky.SkyboxRt = "rbxassetid://114449015831005" -- Правая
+		sky.SkyboxUp = "rbxassetid://114449015831005" -- Верхняя
+	
+	end)
+end
+coroutine.wrap(LCFCX_fake_script)()
+local function LPDMU_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(dragonPos)
+		local delta = dragonPos - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input.Position)
+		end
+	end)
+end
+coroutine.wrap(LPDMU_fake_script)()
+local function WVQKA_fake_script() -- ImageButton_11.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_11)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
 	local soundId = "rbxassetid://1837070127"
 	
 	button.MouseButton1Click:Connect(function()
-		-- Проверяем, есть ли уже Sound с этим AssetId в Workspace
-		local sound
-		for i, obj in workspace:GetChildren() do
-			if obj:IsA("Sound") and obj.SoundId == soundId then
-				sound = obj
-				break
+		-- Удаляем все существующие звуки в Workspace
+		for i, obj in ipairs(workspace:GetChildren()) do
+			if obj:IsA("Sound") then
+				obj:Stop()  -- Сначала останавливаем звук
+				obj:Destroy()  -- Затем удаляем его
 			end
 		end
 	
-		if not sound then
-			sound = Instance.new("Sound")
-			sound.SoundId = soundId
-			sound.Name = "MusicSound"
-			sound.Parent = Workspace
-			sound.Volume = 1
-			sound.Looped = true
+		-- Создаем новый звук
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Name = "MusicSound"
+		sound.Parent = Workspace
+		sound.Volume = 1
+		sound.Looped = true
+		sound:Play()
+	end)
+end
+coroutine.wrap(WVQKA_fake_script)()
+local function CNTQLQ_fake_script() -- ImageButton_12.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_12)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local soundId = "rbxassetid://1846458016"
+	
+	button.MouseButton1Click:Connect(function()
+		-- Удаляем все существующие звуки в Workspace
+		for i, obj in ipairs(workspace:GetChildren()) do
+			if obj:IsA("Sound") then
+				obj:Stop()  -- Сначала останавливаем звук
+				obj:Destroy()  -- Затем удаляем его
+			end
 		end
 	
+		-- Создаем новый звук
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Name = "MusicSound"
+		sound.Parent = Workspace
+		sound.Volume = 1
+		sound.Looped = true
 		sound:Play()
+	end)
+end
+coroutine.wrap(CNTQLQ_fake_script)()
+local function AGBU_fake_script() -- ImageButton_13.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_13)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local soundId = "rbxassetid://1845756489"
+	
+	button.MouseButton1Click:Connect(function()
+		-- Удаляем все существующие звуки в Workspace
+		for i, obj in ipairs(workspace:GetChildren()) do
+			if obj:IsA("Sound") then
+				obj:Stop()  -- Сначала останавливаем звук
+				obj:Destroy()  -- Затем удаляем его
+			end
+		end
+	
+		-- Создаем новый звук
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Name = "MusicSound"
+		sound.Parent = Workspace
+		sound.Volume = 1
+		sound.Looped = true
+		sound:Play()
+	end)
+end
+coroutine.wrap(AGBU_fake_script)()
+local function RSEKIVM_fake_script() -- ImageButton_14.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_14)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local soundId = "rbxassetid://1838857104"
+	
+	button.MouseButton1Click:Connect(function()
+		-- Удаляем все существующие звуки в Workspace
+		for i, obj in ipairs(workspace:GetChildren()) do
+			if obj:IsA("Sound") then
+				obj:Stop()  -- Сначала останавливаем звук
+				obj:Destroy()  -- Затем удаляем его
+			end
+		end
+	
+		-- Создаем новый звук
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Name = "MusicSound"
+		sound.Parent = Workspace
+		sound.Volume = 1
+		sound.Looped = true
+		sound:Play()
+	end)
+end
+coroutine.wrap(RSEKIVM_fake_script)()
+local function KSAVPRG_fake_script() -- ImageButton_15.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_15)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local soundId = "rbxassetid://1846457890"
+	
+	button.MouseButton1Click:Connect(function()
+		-- Удаляем все существующие звуки в Workspace
+		for i, obj in ipairs(workspace:GetChildren()) do
+			if obj:IsA("Sound") then
+				obj:Stop()  -- Сначала останавливаем звук
+				obj:Destroy()  -- Затем удаляем его
+			end
+		end
+	
+		-- Создаем новый звук
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Name = "MusicSound"
+		sound.Parent = Workspace
+		sound.Volume = 1
+		sound.Looped = true
+		sound:Play()
+	end)
+end
+coroutine.wrap(KSAVPRG_fake_script)()
+local function ZIFZ_fake_script() -- opengui.LocalScript 
+	local script = Instance.new('LocalScript', opengui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local musicGui = nil
+	
+	for _, child in screenGui:GetDescendants() do
+	    if child.Name == "musicgui" then
+	        musicGui = child
+	        break
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    if musicGui then
+	        if musicGui:IsA("ScreenGui") or musicGui:IsA("BillboardGui") then
+	            musicGui.Enabled = not musicGui.Enabled
+	        elseif musicGui:IsA("Frame") or musicGui:IsA("TextLabel") or musicGui:IsA("ImageLabel") or musicGui:IsA("ScrollingFrame") then
+	            musicGui.Visible = not musicGui.Visible
+	        end
+	    end
 	end)
 	
 	
 end
-coroutine.wrap(NOJGA_fake_script)()
+coroutine.wrap(ZIFZ_fake_script)()
